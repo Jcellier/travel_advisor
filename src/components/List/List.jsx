@@ -18,6 +18,7 @@ const List = () => {
 	const [type, setType] = useState("restaurants");
 	const [rating, setRating] = useState("");
 
+	// List of places
 	const places = [
 		{ name: "Cool PLace" },
 		{ name: "Best Beer" },
