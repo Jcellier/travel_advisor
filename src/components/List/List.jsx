@@ -18,7 +18,7 @@ const List = () => {
 	const [type, setType] = useState("restaurants");
 	const [rating, setRating] = useState("");
 
-	// List of places
+	// List of places to display
 	const places = [
 		{ name: "Cool PLace" },
 		{ name: "Best Beer" },
